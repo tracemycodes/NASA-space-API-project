@@ -82,9 +82,6 @@
   text-decoration: none;
   cursor: pointer;
   color: #114469;
-  font-family: "Dancing Script", cursive;
-  font-weight: bold;
-  font-size: 1.4rem;
 }
 
 .nav__link:hover {
@@ -153,21 +150,17 @@
 
 .card__copy {
   color: #3c493f;
-  /* color: #7e8d85; */
   text-align: justify;
   line-height: 1.35rem;
   word-spacing: 0.2rem;
 }
 
 .card__footer {
-  /* border: 2px solid purple; */
   padding: 1.5rem;
-  /* padding-top: 0; */
 }
 
 button {
   border: none;
-  /* border: 1px solid gold; */
   background-color: white;
   position: relative;
 }
@@ -182,7 +175,6 @@ button {
 }
 
 .anime__text {
-  /* border: 1px solid green; */
   display: block;
   position: absolute;
   visibility: hidden;
