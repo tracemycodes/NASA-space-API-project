@@ -26,7 +26,6 @@ function getNasa(params) {
     .then((result) => {
       loadTime = false;
       
-
       if (!loadTime) {
         ui.layout(result);
 
