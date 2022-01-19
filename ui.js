@@ -21,7 +21,7 @@ class Ui {
             ${element.explanation}
           </p>
           <div class="card__body__overlay">
-              <button class="read__more">read more</button>
+              <button class="read__more">Read more</button>
             </div>
         </div>
         <footer class="card__footer">
@@ -80,16 +80,15 @@ class Ui {
   }
 
   readMore(item) {
-    console.log(item.parentElement);
     item.parentElement.classList.toggle("card__body__overlay__read");
     item.parentElement.previousElementSibling.classList.toggle(
       "card__copy__read"
     );
 
-    if (item.textContent == "read more") {
-      item.textContent = "read less";
+    if (item.textContent == "Read more") {
+      item.textContent = "Read less";
     } else {
-      item.textContent = "read more";
+      item.textContent = "Read more";
     }
   }
 }

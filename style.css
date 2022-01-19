@@ -162,12 +162,12 @@
 .card__body__overlay button {
   color: #2822d3;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .card__body__overlay button:hover {
   color: #114469;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .card__title,
