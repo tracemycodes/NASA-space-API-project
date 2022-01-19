@@ -131,6 +131,43 @@
   height: ;
   padding: 1.5rem;
   padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.card__body__overlay {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.9668067055923932) 5%,
+    rgba(255, 255, 255, 0.913585417076987) 42%,
+    rgba(255, 255, 255, 0.17689073920583853) 93%,
+    rgba(255, 255, 255, 0.08725488486410193) 100%
+  );
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding-right: 1.3rem;
+}
+
+.card__body__overlay__read {
+  height: 0;
+}
+
+.card__body__overlay button {
+  color: #2822d3;
+  cursor: pointer;
+}
+
+.card__body__overlay button:hover {
+  color: #114469;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .card__title,
@@ -153,6 +190,12 @@
   text-align: justify;
   line-height: 1.35rem;
   word-spacing: 0.2rem;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.card__copy__read {
+  height: 100%;
 }
 
 .card__footer {

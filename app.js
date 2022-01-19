@@ -36,6 +36,15 @@ function getNasa(params) {
             e.preventDefault();
           });
         });
+
+        const UIcardButton = document.querySelectorAll('.read__more')
+        UIcardButton.forEach((item) => {
+          item.addEventListener('click', function (e) {
+            ui.readMore(item);
+            e.preventDefault()
+          });
+        });
+        
       }
     })
 }
